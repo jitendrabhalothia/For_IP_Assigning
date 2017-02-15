@@ -1,4 +1,4 @@
-#!/bin/bashi
+#!/bin/bash
 
 echo  "Getting Public IP of the existence instance and globally exporting variable called ip"
 export ip=`curl  http://169.254.169.254/latest/meta-data/public-ipv4`
